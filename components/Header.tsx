@@ -39,14 +39,14 @@ export default function Header() {
           >
             <ul role={"list"} className='nav-list'>
               <li>
-                <Link
+                {/* <Link
                   href={"aboutme"}
                   onClick={() => {
                     toggle(!isToggled);
                   }}
                 >
                   About Me
-                </Link>
+                </Link> */}
               </li>
               <li>
                 <Link
@@ -69,18 +69,23 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link
+                {/* <Link
                   href={"contact"}
                   onClick={() => {
                     toggle(!isToggled);
                   }}
                 >
                   Contact
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </nav>
-          <button className='button | display-sm-none display-md-inline-flex'>
+          <button
+            className='button | display-sm-none display-md-inline-flex'
+            onClick={() => {
+              window.location.href = "/CollinNapierResume.pdf";
+            }}
+          >
             Resume
           </button>
         </div>

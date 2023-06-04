@@ -17,21 +17,54 @@ export default function Employment() {
         </div>
       </section>
 
-      <main className='padding-block-900 container'>
-        <section>
+      <main>
+        <section className='container padding-block-700'>
           <div className='card'>
             <div>
-              <Image src='img/army-logo.svg' alt='' />
+              <Image src='img/army-logo.svg' alt='' width={200} height={200} />
             </div>
             <div>
               <h2 className='fs-secondary-heading fw-bold'>
                 Army National Guard
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-                optio aliquid sed provident fugit praesentium vero natus animi.
-                Sunt aliquam fugiat dolores ullam. Eos facere, autem fugit
-                voluptate libero corporis.
+                I am currently a Team Leader in the Army National Guard. I have
+                been enlisted since December of 2020. Currently I am deployed
+                overseas and will return in August of 2023. As a team leader it
+                is my reponsibility to train soldiers and maintain their
+                welfare.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section className='container padding-block-700'>
+          <div className='card'>
+            <div>
+              <Image src='img/blank.svg' alt='' width={200} height={200} />
+            </div>
+            <div>
+              <h2 className='fs-secondary-heading fw-bold'>
+                Home Field Yard Service
+              </h2>
+              <p>
+                I was the owner of a landscaping company between June 2018 and
+                December 2020. We had roughly 20 clients during the summer
+                months and had 2 employees.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section className='container padding-block-700'>
+          <div className='card'>
+            <div>
+              <Image src='img/blank.svg' alt='' width={200} height={200} />
+            </div>
+            <div>
+              <h2 className='fs-secondary-heading fw-bold'>Sweet Frog</h2>
+              <p>
+                I was an assistant manager at Sweet Frog between May 2017 and
+                May 2018. My responsibilities included creating daily store
+                revenue reports, overseeing staff, and handling customer issues.
               </p>
             </div>
           </div>

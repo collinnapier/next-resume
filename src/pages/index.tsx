@@ -18,8 +18,7 @@ export default function Home() {
                   Hello,
                 </h1>
                 <p className='text-neutral-100'>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Explicabo, sequi aut sint reiciendis quia nisi?
+                  I am Collin Napier, an aspiring IT professional.
                 </p>
                 <button className='button' onClick={() => {}}>
                   See Work
@@ -35,10 +34,9 @@ export default function Home() {
               <div className='flow flow-spacer-sm'>
                 <h3 className='fs-500 fw-bold'>What I have Done.</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Adipisci, cupiditate eius, natus omnis placeat nemo commodi
-                  illum suscipit aliquam esse doloribus ratione. Ad commodi
-                  tempore quibusdam tenetur veniam ab nostrum.
+                  See some of the projects I have worked on. These are web
+                  development projects I have worked on as a hobby and to help
+                  others.
                 </p>
                 <button
                   className='button'
@@ -51,10 +49,8 @@ export default function Home() {
               <div className='flow flow-spacer-sm'>
                 <h3 className='fs-500 fw-bold'>Where I have Worked.</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Deleniti ab, porro velit in praesentium eligendi corporis
-                  optio eveniet at? Dicta corrupti dolore, sit quo sunt magnam
-                  atque nobis molestiae rerum?
+                  See where I am currently employed and what I have done in the
+                  past.
                 </p>
                 <button className='button' data-type='inverted'>
                   Employment

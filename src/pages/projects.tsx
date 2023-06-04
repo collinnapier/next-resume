@@ -19,10 +19,10 @@ export default function Projects() {
         </div>
       </section>
 
-      <section className='container padding-block-900'>
+      <section className='container padding-block-700'>
         <div className='card'>
           <div>
-            <Image src='computer.svg' alt='' />
+            <Image src='computer.svg' alt='' width={250} height={250} />
           </div>
           <div className='card-info'>
             <h2 className='fs-secondary-heading fw-bold'>This Website!</h2>
@@ -33,19 +33,19 @@ export default function Projects() {
               this project!
             </p>
             <div className='card-tools'>
-              <Image src='img/angular.svg' alt='' />
-              <Image src='img/js.svg' alt='' />
-              <Image src='img/html5.svg' alt='' />
-              <Image src='img/css3.svg' alt='' />
-              <Image src='img/github-mark.svg' alt='' />
+              <Image src='img/angular.svg' alt='' width={50} height={50} />
+              <Image src='img/js.svg' alt='' width={50} height={50} />
+              <Image src='img/html5.svg' alt='' width={50} height={50} />
+              <Image src='img/css3.svg' alt='' width={50} height={50} />
+              <Image src='img/github-mark.svg' alt='' width={50} height={50} />
             </div>
           </div>
         </div>
       </section>
-      <section className='container padding-block-900'>
+      <section className='container padding-block-700'>
         <div className='card'>
           <div>
-            <Image src='img/logo-billr.svg' alt='' />
+            <Image src='img/logo-billr.svg' alt='' width={250} height={180} />
           </div>
           <div className='card-info'>
             <h2 className='fs-secondary-heading fw-bold'>Billr</h2>
@@ -64,11 +64,11 @@ export default function Projects() {
               company information.
             </p>
             <div className='card-tools'>
-              <Image src='img/react.svg' alt='' />
-              <Image src='img/js.svg' alt='' />
-              <Image src='img/html5.svg' alt='' />
-              <Image src='img/css3.svg' alt='' />
-              <Image src='img/github-mark.svg' alt='' />
+              <Image src='img/react.svg' alt='' width={50} height={50} />
+              <Image src='img/js.svg' alt='' width={50} height={50} />
+              <Image src='img/html5.svg' alt='' width={50} height={50} />
+              <Image src='img/css3.svg' alt='' width={50} height={50} />
+              <Image src='img/github-mark.svg' alt='' width={50} height={50} />
             </div>
           </div>
         </div>
