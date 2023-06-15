@@ -1,6 +1,9 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  let router = useRouter();
+
   return (
     <>
       <Head>
@@ -20,7 +23,12 @@ export default function Home() {
                 <p className='text-neutral-100'>
                   I am Collin Napier, an aspiring IT professional.
                 </p>
-                <button className='button' onClick={() => {}}>
+                <button
+                  className='button'
+                  onClick={() => {
+                    router.push("/projects");
+                  }}
+                >
                   See Work
                 </button>
               </div>
@@ -41,7 +49,9 @@ export default function Home() {
                 <button
                   className='button'
                   data-type='inverted'
-                  onClick={() => {}}
+                  onClick={() => {
+                    router.push("/projects");
+                  }}
                 >
                   Projects
                 </button>
@@ -52,7 +62,13 @@ export default function Home() {
                   See where I am currently employed and what I have done in the
                   past.
                 </p>
-                <button className='button' data-type='inverted'>
+                <button
+                  className='button'
+                  data-type='inverted'
+                  onClick={() => {
+                    router.push("/employment");
+                  }}
+                >
                   Employment
                 </button>
               </div>
